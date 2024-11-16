@@ -1,0 +1,113 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+}
+#section-container {
+    background-color: lightgray;
+    width: 80vw;
+    border: 1px solid black;
+    padding: 20px;
+    margin: auto;
+}
+
+
+#select-input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+
+#section-total-estado {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#section-total {
+    width: 40%;
+}
+
+#section-estado {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+#div-id {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+}
+
+#div-id p {
+    margin-right: 20px;
+}
+
+ul {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    list-style: none;
+    padding: 5px 0;
+}
+
+li .descripcion {
+    flex-grow: 1; 
+    text-align: left;
+}
+
+.completada {
+    font-style: italic;
+    background-color: #f0f0f0;
+}
+
+.btnBorrar {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.check {
+    cursor: pointer;
+}
